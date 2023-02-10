@@ -1,7 +1,9 @@
 import axios from 'axios';
 
 
-const API = axios.create({ baseURL: 'http://localhost:8000' });
+const API = axios.create({ baseURL: 'http://memoriesnode-env.eba-97aytn2u.us-east-1.elasticbeanstalk.com' });
+// const API = axios.create({ baseURL: 'http://localhost:8000' });
+
 
 API.interceptors.request.use((req) => {
     if (localStorage.getItem('profile')) {

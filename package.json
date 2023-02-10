@@ -2,7 +2,7 @@
   "name": "client",
   "version": "0.1.0",
   "private": true,
-  "proxy": "http://localhost:8000",
+  "proxy": "http://memoriesnode-env.eba-97aytn2u.us-east-1.elasticbeanstalk.com",
   "dependencies": {
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
@@ -25,6 +25,7 @@
     "react-scripts": "5.0.1",
     "redux": "^4.2.1",
     "redux-thunk": "^2.4.2",
+    "vercel": "^28.15.3",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
